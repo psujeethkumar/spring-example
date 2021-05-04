@@ -26,7 +26,7 @@ public class SpringExampleApplication {
 	}
 	
 	@GetMapping("/test")
-	public String greetConsumer() {
+	public String greetConsumerTest() {
 		return "Welcome ! I'm a microservice running in beaturiful world of Openshift platform";
 	}
 
