@@ -25,10 +25,7 @@ public class SpringExampleApplication {
 		return "Welcome ! I'm a microservice running in beaturiful world of Openshift platform";
 	}
 	
-	@GetMapping("/test")
-	public String greetConsumerTest() {
-		return "Welcome ! I'm a microservice running in beaturiful world of Openshift platform";
-	}
+	
 
 
 	public static void main(String[] args) {
