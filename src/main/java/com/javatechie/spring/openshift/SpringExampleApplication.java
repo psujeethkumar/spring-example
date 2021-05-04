@@ -15,10 +15,16 @@ public class SpringExampleApplication {
 		return "Welcome to java techie";
 	}
 
-	@GetMapping("/{input}")
-	public String congrats(@PathVariable String input) {
-		return "hi " + input + " Your application deployed successfully....";
+	@GetMapping("/containerId")
+	public String returnContainerId() {
+		return "Welcome to java techie";
 	}
+
+	@GetMapping("/greet")
+	public String greetConsumer() {
+		return "Welcome ! I'm a microservice running in beaturiful world of Openshift platform";
+	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringExampleApplication.class, args);
